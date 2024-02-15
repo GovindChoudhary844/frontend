@@ -1,0 +1,167 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  position: fixed;
+  bottom: 10rem;
+}
+
+/* instagram */
+.card1 {
+  width: 45px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #E4405F;
+}
+
+.fa-instagram {
+  margin-top: 1em;
+  margin-left: -0.5em;
+  color: #E4405F;
+}
+
+.card1:hover .fa-instagram {
+  color: white;
+}
+
+/* facebook */
+.card2 {
+  width: 45px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #1877F2;
+}
+
+.fa-facebook {
+  margin-left: -0.5em;
+  color: #1877F2;
+}
+
+.card2:hover .fa-facebook {
+  color: white;
+}
+
+/* whatsapp */
+.card3 {
+  width: 45px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #25D366;
+}
+
+.fa-whatsapp {
+  margin-left: -0.5em;
+  color: #25D366;
+}
+
+.card3:hover .fa-whatsapp {
+  color: white;
+}
+
+/* youtube */
+.card4 {
+  width: 45px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #CD201F;
+}
+
+.fa-youtube {
+  margin-left: -0.5em;
+  color: #CD201F;
+}
+
+.card4:hover .fa-youtube {
+  color: white;
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+  .main {
+    width: 10%;
+  }
+
+  .card1 {
+    background-color: #E4405F;
+  }
+
+  .fa-instagram {
+    color: #fff;
+  }
+
+  .card2 {
+    background-color: #1877F2;
+  }
+
+  .fa-facebook {
+    color: #fff;
+  }
+
+  .card3 {
+    background-color: #25D366;
+  }
+
+  .fa-whatsapp {
+    color: #fff;
+  }
+
+  .card4 {
+    background-color: #CD201F;
+  }
+
+  .fa-youtube {
+    color: #fff;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main {
+    width: 5%;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 992px) {
+  .main {
+    width: 5%;
+  }
+}

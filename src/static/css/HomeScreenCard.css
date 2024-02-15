@@ -1,0 +1,46 @@
+.Card-hero {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  color: #000000;
+  display: grid;
+  cursor: pointer;
+  border-color: white;
+  margin: 10px;
+}
+
+@media (min-width: 576px) {
+  .Card-hero {
+    max-width: 170px;
+  }
+}
+
+.Card-hero:hover .hero-card-head {
+  transform: translateY(-1em);
+}
+
+
+.hero-card-image {
+  position: relative;
+  top: -20px;
+  display: grid;
+  gap: 10px;
+  background-color: #ffaeeb;
+}
+
+.hero-card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-card-head {
+  transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  background: hsl(195, 74%, 62%);
+  height: 30px;
+  padding: 10px 5px 5px 5px;
+  margin: 0 5px 0 5px;
+}
+
+.hero-card-head h5 {
+  text-decoration: none;
+}
